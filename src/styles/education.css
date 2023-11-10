@@ -1,0 +1,90 @@
+.EducationItem
+{
+    background: rgba(10, 10, 10, 0);
+    width: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+.EducationItem img
+{
+    width: auto !important;
+    height: auto !important;
+    max-width: 450px !important;
+    display: block !important;
+}
+
+.EducationItem h1
+{
+    font-size: 2.5em;
+    margin-top: 0;
+    color: white;
+    float: left;
+    clear: both;
+}
+
+.EducationItem h2
+{
+    font-size: 1.4em;
+    font-weight: normal;
+    color: white;
+    float: left;
+    margin: 0.2em 0 ;
+    clear: both;
+}
+
+.EducationItem h3
+{
+    clear: both;
+    float: left;
+    font-size: 1.4em;
+    color: rgb(173, 173, 173);
+}
+
+.EducationText
+{
+    padding-left: 3%;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 600px;
+    text-align: left;
+}
+
+@media only screen and (max-width: 768px)
+{    
+    .EducationItem
+    {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .EducationItem h1
+    {
+        font-size: 1em;
+    }
+    
+    .EducationItem h2
+    {
+        font-size: .85em;
+    }
+    
+    .EducationItem h3
+    {
+        font-size: 0.7em;
+    }
+
+    .EducationItem img
+    {
+        max-width: 120px !important;
+    }
+
+    .EducationText
+    {
+        padding-left: 3%;
+        width: 70%;
+    }
+}

@@ -1,0 +1,24 @@
+
+.pageStyles
+{
+    margin: auto;
+    width: 80%;
+    font-family: "-apple-system, Roboto, sans-serif, serif";
+    padding-bottom: 50px;
+}
+
+.ytEmbedVideo
+{
+    width: 960px;
+    height: 540px;
+}
+  
+@media only screen and (max-width: 768px)
+{    
+    .pageStyles
+    {
+        width: 90%;
+        margin: auto;
+        padding-bottom: 12%;
+    }
+}

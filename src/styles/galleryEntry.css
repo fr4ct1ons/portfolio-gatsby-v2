@@ -1,0 +1,41 @@
+.GalleryEntry
+{
+    text-align: center;
+    background: rgb(50, 50, 50);
+    width: 31%;
+    display: inline-block;
+    word-wrap: break-word;
+    margin-bottom: 2%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    border-bottom: 2px solid cyan;
+
+}
+
+.GalleryEntry img
+{
+    width: 100%;
+}
+
+.GalleryEntry video
+{
+    width: 100%;
+    padding: 0%;
+    border: 0%;
+    margin: 0%;
+}
+
+.GalleryEntry a
+{
+    text-decoration: none;
+}
+
+.GalleryEntry p
+{
+    font-size: 180%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: cyan;
+    text-decoration: none;
+    font-family: 'Montserrat-var';
+}

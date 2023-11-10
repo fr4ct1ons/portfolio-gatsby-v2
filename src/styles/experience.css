@@ -1,0 +1,103 @@
+.ExperienceItem
+{
+    background: rgba(10, 10, 10, 0);
+    width: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+    /*border-bottom: 2px solid red;*/
+}
+
+.ExperienceItem img
+{
+    height: 250px !important;
+}
+
+.ExperienceItem h1
+{
+    font-size: 2.5em;
+    margin: 0;
+    color: white;
+    text-align: left;
+}
+
+.ExperienceItem h2
+{
+    font-size: 1.6em;
+    font-weight: normal;
+    color: white;
+    margin-top: 0.2em;
+    text-align: left;
+    margin-bottom: 0.2em;
+}
+
+.ExperienceItem h3
+{
+    clear: both;
+    float: left;
+    font-size: 1.4em;
+    color: rgb(173, 173, 173);
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+.ExperienceItem p
+{
+    clear: both;
+    float: left;
+    font-size: 1.2em;
+    color: white;
+    text-align: left;
+    margin: 0;
+}
+
+.ExperienceText
+{
+    padding-left: 3%;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 700px;
+    text-align: left;
+}
+
+@media only screen and (max-width: 768px)
+{    
+    .ExperienceItem
+    {
+        width: 100%;
+    }
+
+    .ExperienceItem h1
+    {
+        font-size: 1em;
+    }
+    
+    .ExperienceItem h2
+    {
+        font-size: 0.8em;
+    }
+    
+    .ExperienceItem h3
+    {
+        font-size: 0.7em;
+    }
+
+    .ExperienceItem p
+    {
+        font-size: 0.8em;
+    }
+
+    .ExperienceItem img
+    {
+        height: 60px !important;
+    }
+
+    .ExperienceText
+    {
+        padding-left: 3%;
+        width: 70%;
+    }
+}
