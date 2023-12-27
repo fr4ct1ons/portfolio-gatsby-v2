@@ -29,7 +29,7 @@ const NotFoundPage = () => {
     <GlobalLayout>
       <h1>404</h1>
       <p>Whoops! Looks like you came across a missing page.</p>
-      <Link to="/">Return to home</Link>
+      <p><Link to="/">Return to home</Link></p>
     </GlobalLayout>
   )
 }
