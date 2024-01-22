@@ -13,6 +13,7 @@ function GetVideo(vidPath)
     let unrealCrystal = require("../videos/Unreal Crystal.webm").default;
     let unrealLavaLamp = require("../videos/Unreal Lava Lamp.webm").default;
     let unityLiquid = require("../videos/Unity Liquid.webm").default;
+    let cyberpunkZoom = require("../videos/Cyberpunk Zoom Recreation.webm").default;
 
     if(vidPath === "../videos/OLO Still.webm")
     {
@@ -29,6 +30,10 @@ function GetVideo(vidPath)
     else if(vidPath === "../videos/Unity Liquid.webm")
     {
         return unityLiquid
+    }
+    else if(vidPath === "../videos/Cyberpunk Zoom Recreation.webm")
+    {
+        return cyberpunkZoom
     }
 
     return  oloStill;
