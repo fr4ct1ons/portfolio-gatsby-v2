@@ -25,7 +25,7 @@ function GlobalLayout(props) {
         <div style={centerDivStyle} className='pageStyles'>
             {props.children}
         </div>
-        <a style={{paddingBottom: "50px", marginTop: "150px", color: "rgb(70, 70, 70)", textDecoration: "none", fontSize:".8em"}} href="https://www.gatsbyjs.com/">Made with Gatsby.js</a>
+        <a style={{paddingBottom: "50px", marginTop: "150px", color: "rgb(70, 70, 70)", textDecoration: "none", fontSize:".8em"}} href="https://www.gatsbyjs.com/">Made with Gatsby.js, a React framework</a>
     </main> 
     );
 }
