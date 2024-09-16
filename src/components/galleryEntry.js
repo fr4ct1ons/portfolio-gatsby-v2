@@ -15,6 +15,7 @@ function GetVideo(vidPath)
     let unityLiquid = require("../videos/Unity Liquid.webm").default;
     let cyberpunkZoom = require("../videos/Cyberpunk Zoom Recreation.webm").default;
     let zeldaTeleport = require("../videos/ZeldaTeleportRecreation.webm").default;
+    let spaceshipThruster = require("../videos/Spaceship Thrusters.webm").default;
 
     if(vidPath === "../videos/OLO Still.webm")
     {
@@ -39,6 +40,10 @@ function GetVideo(vidPath)
     else if(vidPath === "../videos/ZeldaTeleportRecreation.webm")
     {
         return zeldaTeleport
+    }
+    else if (vidPath === "../videos/Spaceship Thrusters.webm")
+    {
+        return spaceshipThruster
     }
 
     return  oloStill;

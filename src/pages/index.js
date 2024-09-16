@@ -111,7 +111,8 @@ function IndexPage(){
           </ul>
 
         <h3>Education</h3>
-          <EducationItem title="BSc. Information Technology" institution="Universidade Federal do Rio Grande do Norte" duration="2018-2022" img="UFRN.png"></EducationItem>
+        <EducationItem title="Masters' in Information Technology" institution="Universidade Federal do Rio Grande do Norte" duration="2018-Ongoing" img="UFRN.png"></EducationItem>
+        <EducationItem title="Bachelor's in Information Technology" institution="Universidade Federal do Rio Grande do Norte" duration="2018-2022" img="UFRN.png"></EducationItem>
 
         <h3>Experience</h3>
         <ExperienceItem title="Tech Artist" workplace="Freedom Games" period="2022-2023" project="One Lonely Outpost" img="FreedomGames.png"
