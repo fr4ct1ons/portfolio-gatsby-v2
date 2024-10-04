@@ -18,7 +18,7 @@ Next up is a poisonous attack for a generic enemy. Multiple particle systems wer
 
 <iframe class="ytEmbedVideo" src="https://www.youtube.com/embed/i9q5a5fQfKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Last but definitely not least is a rain effect I made for the overworld. It was also made with particle systems, like the previous VFXes. **This one has a catch, though** - I was "told" to make the rain transition smoothly from a simple light rain to a more detailed heavy rain. I wrote a set of scripts that would change particle systems on runtime when a blend value is modified, similar to a slider on a shader. Below is a video of this system in action.
+Last but definitely not least is a rain effect I made for the overworld. It was also made with particle systems, like the previous visual effects. **This one has a catch, though** - I was "told" to make the rain transition smoothly from a simple light rain to a more detailed heavy rain. I wrote a set of scripts that would change particle systems on runtime when a blend value is modified, similar to a slider on a shader. Below is a video of this system in action.
 
 <iframe class="ytEmbedVideo" src="https://www.youtube.com/embed/6GwtU4DKyBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

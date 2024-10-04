@@ -83,6 +83,7 @@ function IndexPage(){
         <a href="https://github.com/fr4ct1ons"><StaticImage loading="eager" style={socialsIcon} src="https://i.imgur.com/RwJpRNo.png"/></a>
         <a href="https://sketchfab.com/fr4ct1ons"><StaticImage loading="eager" style={socialsIcon} src="https://i.imgur.com/MLdzwYP.png"/></a>
         <a href="https://fr4ct1ons.itch.io/"><StaticImage loading="eager" style={socialsIcon} src="https://i.imgur.com/H9tHGKz.png"/></a>
+        <a href="https://artstation.com/fr4ct1ons"><StaticImage loading="eager" style={socialsIcon} src="https://i.imgur.com/Ov61efY.png"/></a>
         </div>
         <h3>Tools & Skills</h3>
         <div style={skillsList}>
@@ -111,10 +112,14 @@ function IndexPage(){
           </ul>
 
         <h3>Education</h3>
-        <EducationItem title="Masters' in Information Technology" institution="Universidade Federal do Rio Grande do Norte" duration="2018-Ongoing" img="UFRN.png"></EducationItem>
+        <EducationItem title="Masters' in Information Technology" institution="Universidade Federal do Rio Grande do Norte" duration="2024-Ongoing" img="UFRN.png"></EducationItem>
         <EducationItem title="Bachelor's in Information Technology" institution="Universidade Federal do Rio Grande do Norte" duration="2018-2022" img="UFRN.png"></EducationItem>
 
         <h3>Experience</h3>
+        {/*Need to fix this component, as Vagabond's logo isn't square and broke the whole page.*/}
+        <ExperienceItem title="Tech Artist" workplace="Vagabond Games" period="2023-2024" project="Undisclosed Project" img="Vagabond.png"
+            desc="Worked as a tech artist for an undisclosed project, creating shaders, visual effects and helping with the render pipeline in general.">  
+        </ExperienceItem>
         <ExperienceItem title="Tech Artist" workplace="Freedom Games" period="2022-2023" project="One Lonely Outpost" img="FreedomGames.png"
             desc="Worked as a tech artist for One Lonely Outpost, creating shaders and visual effects, as well as other functions related to setting up lighting, post processing, animations and character customization.">  
           </ExperienceItem>
